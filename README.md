@@ -1,2 +1,3 @@
 # pweb-cv-website
-Tugas mata kuliah Pemrograman Web menggunakan kerangka kerja Bootstrap.
+
+Tugas mata kuliah Pemrograman Web menggunakan HTML, CSS, dan framework Bootstrap. Berikut merupakan hasilnya:
