@@ -4,7 +4,7 @@
 
     Nama    : Dewangga Dika Darmawan
     NRP     : 5025211109
-    Kelas   : Probabilitas dan Statistika (C)
+    Kelas   : Pemrograman Web (F)
 
 Tugas mata kuliah Pemrograman Web menggunakan HTML, CSS, dan framework Bootstrap. Berikut merupakan beberapa hasilnya:
 
