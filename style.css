@@ -46,13 +46,14 @@
 /* Navbar */
 
 .navbar {
-    min-height: 80px;
+    height: 80px;
 }
 
 /* Hero */
 
 .hero {
     background-color: var(--bg-second);
+    height: 560px;
 }
 
 .hero h1 {
@@ -67,6 +68,10 @@
 .hero p {
     font-size: 24px;
     font-weight: 600;
+}
+
+.lil-text {
+    padding: 100px 270px 0 270px;
 }
 
 /* Pembatas */
@@ -187,6 +192,14 @@
 
 /* Carousel */
 
+.my-carousel {
+    height: 560px;
+}
+
+.my-carousel2 {
+    padding-bottom: 30px;
+}
+
 .carousel-title-caption {
     background-color: var(--bg-first);
     color: var(--bg-primary-black);
@@ -216,4 +229,125 @@
 }
 
 @media screen and (max-width: 576px) {
+    /* Navbar */
+    .navbar {
+        height: 64px;
+    }
+
+    /* Hero */
+    .hero {
+        height: 280px;
+    }
+
+    .hero h1 {
+        -webkit-text-stroke: 1px var(--bg-primary-black);
+        font-size: 46px;
+        line-height: 56px;
+        padding-top: 20px;
+    }
+
+    .hero p {
+        font-size: 12px;
+    }
+
+    .lil-text {
+        padding: 88px 12px 0 24px;
+    }
+
+    /* Pembatas */
+    .pembatas {
+        padding: 6px 0px 6px 0px;
+    }
+
+    .pembatas p {
+        font-size: 12px;
+    }
+
+    /* About Me */
+    #about .container h2 {
+        font-size: 20px;
+    }
+
+    #about .container p {
+        font-size: 16px;
+    }
+
+    /* Experience */
+    #pengalaman .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .timeline {
+        margin: 40px;
+    }
+
+    .timeline::after {
+        left: 0px;
+        margin: 0;
+    }
+
+    .container-timeline {
+        width: 100%;
+        margin-top: 12px;
+        padding-right: 0px;
+        padding-left: 40px;
+    }
+
+    .text-box h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .text-box small {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .text-box p {
+        font-size: 14px;
+    }
+
+    .right-container {
+        left: 0;
+        text-align: start;
+    }
+
+    .left-container img,
+    .right-container img {
+        left: -16px;
+    }
+
+    .left-container-arrow,
+    .right-container-arrow {
+        /* border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent; */
+        top: 38px;
+        border-right: 16px solid #ffffff;
+        border-left: 0;
+        left: -10px;
+    }
+
+    /* Carousel */
+    .my-carousel {
+        height: 200px;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+    .my-carousel img {
+        border-radius: 6px;
+    }
+
+    .my-carousel2 {
+        padding-bottom: 10px;
+    }
+
+    #carousel .container {
+        padding: 0;
+    }
+
+    #pengalaman h2 {
+        font-size: 20px;
+    }
 }
